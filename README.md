@@ -1,5 +1,3 @@
-is having this enough:
-
 # solana-rpc-fallback
 
 A lightweight, asynchronous Rust RPC failover router (`RpcRouter`) for Solana. It wraps primary and backup `RpcClient` endpoints and automatically switches to the backup node if the primary fails or times out.
